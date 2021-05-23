@@ -1,12 +1,12 @@
 {
-  "name": "Telegram Torrent Leecher",
-  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
+  "name": "Telegram Torrent Uploader",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentuploadgdrivesupport!",
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
+  "repository": "https://github.com/mikiadarsh25/TorrentUpload-Gdrive",
   "success_url": "https://t.me/torrentleechgdrivesupport",
-  "website": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
+  "website": "https://github.com/mikiadarsh25/TorrentUpload-Gdrive",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -25,7 +25,7 @@
       "value": ""
     },
     "AUTH_CHANNEL": {
-      "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
+      "description": "should be an integer. The BOT API ID of the Telegram Group, where the Uploader should work.",
       "value": ""
     },
     "OWNER_ID": {
@@ -67,20 +67,20 @@
       "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
       "required": false
     },
-    "LEECH_COMMAND": {
-      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+    "UPLOAD_COMMAND": {
+      "description": "Enter your custom upload command like /upload@urgroupname and so on. Default is /upload",
       "required": false
     },
     "INDEX_LINK": {
       "description": "Enter your index link:",
       "required": false
     },
-    "GLEECH_COMMAND": {
-      "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
+    "GUPLOAD_COMMAND": {
+      "description": "Enter your custom gupload command like /gupload@urgroupname and so on. Default is /gupload",
       "required": false
     },
-    "TELEGRAM_LEECH_COMMAND_G": {
-      "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
+    "TELEGRAM_UPLOAD_COMMAND_G": {
+      "description": "Enter your custom tupload command like /tupload@urgroupname and so on. Default is /tupload",
       "required": false
     },
     "YTDL_COMMAND": {
@@ -100,7 +100,7 @@
       "required": false
     },
     "RCLONE_CONFIG": {
-      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
+      "description": "Enter your copied text from rclone config. Compulsory for /gupload as well as /tupload command ",
       "required": false
     },
     "DESTINATION_FOLDER": {
